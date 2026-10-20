@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ margin: 0px;
+}
+.nav{
+    /* background-color: aqua; */
+}
+.navdata{
+    text-align: center;
+     font-family: "Roboto", sans-serif;
+}
+#book{
+    /* background-color:white; */
+    text-align: right;
+    padding-right: 8px;
+    width: 150px;
+}
+#contact{
+    text-align: left;
+    padding-left: 20px;
+}
+#bookheaven{
+    text-align:left;
+    padding-left: 8px;
+    font-family: none;
+    font-weight: 550;
+    font-size: 2rem;
+}
+.anchor{
+      text-decoration-line: none;
+      color: black;
+}
+#home{
+    text-decoration-line:underline ;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+}
+#imagebook{
+    width: 100px;
+}
