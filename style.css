@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     box-sizing: border-box;
 }
@@ -5,7 +8,7 @@ body{
  margin: 0px;
 }
 .nav{
-    /* background-color: aqua; */
+   position: fixed;
 }
 .navdata{
     text-align: center;
@@ -28,6 +31,11 @@ body{
     font-weight: 550;
     font-size: 2rem;
 }
+#about{
+    text-decoration-line:underline ;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+}
 .anchor{
       text-decoration-line: none;
       color: black;
@@ -39,4 +47,63 @@ body{
 }
 #imagebook{
     width: 100px;
+}#bgimage{
+    /* background-image: url(images/bgimage book.png); */
+    /* background-color: yellow; */
+    width: 95vw;
+  height: 75vh;
+}
+#image{
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
+.text{
+    width: 100%;
+    background-color: rgb(17, 79, 17);
+    padding: 6px 0px;
+}
+#Heaven{
+    width: 88%;
+    color: white;
+    padding-left: 15px;
+    font-family: "Roboto", sans-serif ;
+}
+#facebook{
+   width: 3%;
+   color: white;
+}
+#insta{
+   width: 3%;
+   color: white;
+}
+#youtube{
+   width: 3%;
+   color: white;
+}
+#pinterest{
+   width: 3%;
+   color: white;
+}
+#aboutus{
+    font-size: 2rem;
+   font-weight: 550;
+   padding-left: 45px;
+   text-decoration-line: underline;
+   text-decoration-thickness: 2px;
+   text-underline-offset: 10px;
+}
+#side{
+    width:100vw;
+    height: 50vh;
+    /* background-color: aqua; */
+}
+#sideimage{
+    width:50vw ;
+    height: 50vh;
+    margin-left: 30px;
+}
+#sidetext{
+width: 45vw;
+margin-right:0px ;
 }
