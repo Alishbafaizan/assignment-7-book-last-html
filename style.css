@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 *{
     box-sizing: border-box;
@@ -20,9 +21,8 @@ body{
     padding-right: 8px;
     width: 150px;
 }
-#contact{
-    text-align: left;
-    padding-left: 20px;
+#imagebook{
+    width: 100px;
 }
 #bookheaven{
     text-align:left;
@@ -31,23 +31,20 @@ body{
     font-weight: 550;
     font-size: 2rem;
 }
-#about{
-    text-decoration-line:underline ;
-    text-underline-offset: 8px;
-    text-decoration-thickness: 2px;
-}
 .anchor{
       text-decoration-line: none;
       color: black;
 }
-#home{
+/* #home{
     text-decoration-line:underline ;
     text-underline-offset: 8px;
     text-decoration-thickness: 2px;
+} */
+#contact{
+    text-align: left;
+    padding-left: 20px;
 }
-#imagebook{
-    width: 100px;
-}#bgimage{
+#bgimage{
     /* background-image: url(images/bgimage book.png); */
     /* background-color: yellow; */
     width: 95vw;
@@ -85,6 +82,10 @@ body{
    width: 3%;
    color: white;
 }
+#section2{
+    width: 100vw;
+    height: 100vh;
+}
 #aboutus{
     font-size: 2rem;
    font-weight: 550;
@@ -93,17 +94,50 @@ body{
    text-decoration-thickness: 2px;
    text-underline-offset: 10px;
 }
+#about{
+    margin-top: 20px;
+    /* background-color: aquamarine; */
+}
 #side{
-    width:100vw;
+    width:95vw;
     height: 50vh;
     /* background-color: aqua; */
 }
 #sideimage{
-    width:50vw ;
-    height: 50vh;
-    margin-left: 30px;
+    width:60vw ;
+    height: 55vh;
+    /* margin-left: 30px; */
+    border-radius: 10px;
 }
 #sidetext{
 width: 45vw;
 margin-right:0px ;
+/* background-color: aquamarine; */
+}
+#ourstory{
+/* background-color: blueviolet; */
+padding: 20px;
+font-family: "Roboto", sans-serif;
+font-size: 1.5rem;
+font-weight: 500;
+}
+#para{
+    /* background-color: brown; */
+   word-spacing: 2.5px;
+   letter-spacing: 1px;
+   font-family: "Roboto", sans-serif;
+   padding-left: 45px;
+   line-height: 25px;
+}
+#magic{
+ font-family: "Dancing Script", cursive;
+ font-size: 1.8rem;
+ padding-bottom: 30px;
+ margin: 20px;
+ /* background-color: bisque; */
+}
+#author{
+    font-family: "Roboto", sans-serif;
+    /* background-color: rgb(114, 20, 110); */
+    margin-top: 10px;
 }
