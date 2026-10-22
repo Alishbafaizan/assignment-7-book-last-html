@@ -105,9 +105,23 @@ body{
     background-color:white;
     color: black;
 }
+.linkbook{
+    color:black;
+   text-decoration-line: none;
+}
 #all{
      background-color: rgb(17, 79, 17);
     color: white;
+}
+.linksec2{
+     color: white;
+   text-decoration-line: none;
+}
+.booksimg{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 2px 10px;
 }
 #section3{
     width: 100vw;
@@ -167,4 +181,42 @@ font-weight: 500;
     font-family: "Roboto", sans-serif;
     /* background-color: rgb(114, 20, 110); */
     margin-top: 10px;
+} 
+#section4{
+    width: 100vw;
+    height: 100vh;
+}
+#blog{
+    font-size: 2rem;
+   font-weight: 550;
+   padding-left: 45px;
+}
+#thoughts{
+    padding-left: 45px;
+    padding-top:20px ;
+    font-size: 1.1rem;
+}
+.divthreeimage{
+    padding-left: 45px;
+    padding-bottom:10px ;
+}
+.threeimage{
+    width: 20vw;
+    height:150px;
+
+}
+.tabledatathree{
+    /* background-color: blue; */
+    vertical-align: middle;
+    margin-left:20px ;
+    padding-left:20px ;
+}
+.boldfont{
+    padding-top:20px ;
+    /* margin: 10px; */
+   vertical-align: text-top;
+    background-color: blanchedalmond;
+}
+.date{
+    color: rgb(162, 207, 207);
 }
