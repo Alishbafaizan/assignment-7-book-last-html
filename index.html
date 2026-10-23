@@ -54,21 +54,7 @@
            <!-- section 2-->
           <section id="section2">
             <div id="listbooks"><br><br>Our Books</div><br><br>
-                <!-- all page from books page -->
-            <!-- books page naavbar -->
-            <div id="anothernav">
-                <table>
-                    <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td class="booksnav" id="all"> <a class="linksec2" href="#allpage">All</a></td>
-                        <td class="booksnav"> <a class="linkbook" href="#fictionpage">Fiction</a></td>
-                        <td class="booksnav"> <a class="linkbook" href="#nonfictionpage">Non-fiction</a></td>
-                        <td class="booksnav"> <a class="linkbook" href="#selfhelppage">Self Help</a></td>
-                        <td class="booksnav"> <a class="linkbook" href="#fantasypage">Fantasy</a></td>
-                    </tr>
-                </table>
-            </div><br><br>
-            <section id="allpage">
+            <div id="allpage">
              <center>
             <div>
                 <table>
@@ -87,6 +73,7 @@
                 </table>
             </div><br><br>
             </center>
+            </div><br><br><br><br>
               <div id="footer">
             <center>
           <table  class="text">
@@ -101,11 +88,6 @@
           </center>
         </div><br><br>
             </section>
-            <!-- fiction page from books page -->
-             <section id="fictionpage">
-
-             </section>
-          </section>
         <!-- section 3 -->
          <section id="section3">
         <div id="aboutus"> <br><br><span id="about">About Us</span></div><br><br>
@@ -273,15 +255,17 @@
                             <form>
                                 <br><br>
                                 <label class="send">Send Us A Message</label><br><br>
-                                <center>
-                                <input class="input" type="text" name="name" value="Name" size="85"><br><br>
-                                <input class="input" type="email" name="email" value="Email" size="85"><br><br>
+                                <span class="form">Name:</span><br>
+                                <center><input class="input" type="text" name="name"  required size="85">
+                                    </center><br><br>
+                                <span class="form">Email:</span><br>
+                                <center><input class="input" type="email" name="email" required size="85"><br><br>
                                 </center>
                                 <label class="message">Enter Your Message Here</label>
                                 <center>
                             <textarea  name="message" cols="80" rows="7" id="mess">
                             </textarea><br><br>
-                                <button class="but">Send Message</button>
+                                <button class="but"><a id="sec7" href="#section7">Send Message</a></button>
                                 </center>
                             </form>
                         </div>
@@ -289,7 +273,7 @@
                 </tr>
             </table>
             </center>
-            <br><br><br>    <br>
+            <br><br>
               <div id="footer">
             <center>
           <table  class="text">
@@ -303,6 +287,18 @@
           </table>
           </center>
         </div>
+         </section>
+         <!-- section 7 -->
+         <section id="section7"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <center>
+                 <div id="last">
+            <span><img id="tickmark" src="images/tick mark.png" alt=""></span><br>
+           <span>
+            <span id="success"> Message Sent Successfully!</span> <br><br>
+<span id="thanks">Thank you for contacting Book Heaven! Your message has been received. We'll get back to you as soon as possible. Happy reading!</span>
+</span>
+          </div>
+            </center>
          </section>
     </div>
 </body>
