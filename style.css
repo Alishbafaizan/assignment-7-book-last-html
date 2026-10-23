@@ -22,7 +22,8 @@ body{
     width: 150px;
 }
 #imagebook{
-    width: 100px;
+    width: 80px;
+    height: 70px;
 }
 #bookheaven{
     text-align:left;
@@ -219,4 +220,94 @@ font-weight: 500;
 }
 .date{
     color: rgb(162, 207, 207);
+}
+#section5{
+    width: 100vw;
+    height: 100vh; 
+}
+#gallery{
+    padding-left: 45px;
+       font-size: 2rem;
+   font-weight: 550;
+}
+#moments{
+    /* background-color: aqua; */
+    padding: 10px 0px;
+     padding-left: 45px;
+}
+.grouptd{
+  padding: 0px 10px;
+}
+.grouptd1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.group{
+    width: 275px;
+    height: 250px;
+}
+#section6{
+    width: 100vw;
+    height: 100vh;
+}
+#getin{
+padding-left: 45px;
+   font-size: 2rem;
+   font-weight: 550;
+
+}
+#hear{
+    padding-left: 45px;
+/* background-color: aqua; */
+padding-top: 10px;
+}
+#table1form{
+width: 45vw;
+height: 45vh;
+background-color:rgb(244, 242, 242);
+}
+#table1{
+width: 100%;
+height: 100%;
+}
+td>i{
+    /* padding-left:10px ; */
+    padding-right: 0px;
+}
+#location{
+font-size: 1.5rem;
+font-weight: 550;
+padding-bottom: 10px;
+}
+#email{
+font-size: 1.5rem;
+font-weight: 550;
+padding-bottom: 10px;
+}
+#call{
+font-size: 1.5rem;
+font-weight: 550;
+padding-bottom: 10px;
+}
+#hours{
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+#tableform{
+width: 45vw;
+height: 45vh;
+background-color:rgb(226, 224, 224);
+}
+.td1{
+    padding-right: 10px;
+}
+.td2{
+padding-left: 10px;
+}
+label{
+    padding: 20px 15px;
+    font-size: 1.4rem;
+    /* background-color: aquamarine; */
 }
